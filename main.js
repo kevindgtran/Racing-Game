@@ -6,8 +6,8 @@
 // });
 
 $( document ).ready(function(){
-var player1 = '<div id="player1"><img src="images/Kevin1.png" alt="Kevin" /></div>';
-var player2 = '<div id="player2"><img src="images/Chris1.png" alt="Chris" /></div>';
+var player1 = '<div id="player1"><img src="images/marioCart.png" alt="Kevin" /></div>';
+var player2 = '<div id="player2"><img src="images/sonicCar2.png" alt="sonic car" /></div>';
 var background = '<div id="background"><img src="images/MarioBackGround.jpg" alt="MarioBackGround" /></div>'
 var background2 = '<div id="background"><img src="images/SonicBackGround.png" alt="SonicBackGround" /></div>'
 
@@ -32,21 +32,6 @@ if (e.keyCode === 221) {
   $('#player2 img').css('left', '+=10px');
 }
 
-
-
-
-
-
-
-  // switch (e.keyCode) {
-  //   case 81:        //Q key - Player 1
-  //     $('#player1').css('left', position.left + 20 + 'px');
-  //     break;
-  //   case 221:        //] key - Player 2
-  //     $('#player2').css();
-  //     break;
-  //   default:
-  // }
 
 
 
